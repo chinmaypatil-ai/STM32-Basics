@@ -1,0 +1,48 @@
+# =====================================
+# STM32CubeIDE Master .gitignore
+# =====================================
+
+# --- Build and Output Folders ---
+/Debug/
+/Release/
+/build/
+/Core/Startup/startup_stm32*.s
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.lst
+*.srec
+
+# --- IDE and Workspace Settings ---
+/.settings/
+/.metadata/
+/.vscode/
+/.idea/
+/ipch/
+*.launch
+*.cfg
+
+# --- OS Generated Files ---
+Thumbs.db
+.DS_Store
+ehthumbs.db
+desktop.ini
+
+# --- Temporary / Backup Files ---
+*.swp
+*.bak
+*.tmp
+*.log
+
+# --- Generated Dependencies ---
+*.d
+*.dep
+
+# --- Miscellaneous ---
+/*.ioc-save
+/backup/
+# =====================================
+# End of File
+# =====================================
